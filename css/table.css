@@ -1,0 +1,28 @@
+.table {
+  border-collapse: collapse;
+  margin: 10px auto;
+  width: 100%;
+  border-style: solid;
+  border-color: #054312;
+  box-shadow: inset -5px -5px 12px -4px rgba(5, 67, 18, 0.4);
+}
+
+.table__caption {
+  margin: 10px 10px 10px 10px;
+}
+
+.table__cell {
+  border: 1px inset #b7bfb7;
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table__cell--header {
+  color: white;
+  background-color: #054312;
+}
+
+.table__row:hover {
+  background-color: #d1dad4;
+}

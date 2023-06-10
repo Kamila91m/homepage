@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.body {
+  font-family: "Lato", sans-serif;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0px 20px;
+  background-color: #fffdfa;
+  line-height: 1.5;
+}
+
+.changeColor {
+  color: #ff0000;
+}

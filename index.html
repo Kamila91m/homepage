@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kamila Mikucka</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/section.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#omnie">O mnie</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#zainteresowania"
+            >Zainteresowania</a
+          >
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#frontend">Nauka Frontend'u</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#przyciski">Magiczne przyciski</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="header">
+      <p class="header__paragraph">Future Frontend Developer</p>
+      <h1 class="header__heading js-headingName">Kamila Mikucka</h1>
+      <div>
+        <img
+          width="200"
+          height="250"
+          src="https://i.postimg.cc/hjKS5cY2/Zdj-cie.png"
+          alt="Kamila Mikucka"
+        />
+      </div>
+    </header>
+    <main>
+      <div class="js-containerText">
+        <section class="section" id="omnie">
+          <h2 class="js-headingAbout">O mnie</h2>
+          <p>
+            Nazywam się Kamila Mikucka i za kilka miesięcy będę szukać pracy
+            jako <strong>Frontend Developer</strong> Przez prawie 6 lat
+            pracowałam w korporacjach, a aktualnie posiadam swoją działalność i
+            wspieram małe firmy jako
+            <span class="section__important"> wirtualna asystentka </span> (<i
+              >virtual assistant</i
+            >).
+          </p>
+          <p>
+            A to moja strona stworzona rok temu w Wordpressie:
+            <a href="https://kamila-virtualassistant.pl/" target="_blank"
+              >https://kamila-virtualassistant.pl/</a
+            >
+          </p>
+        </section>
+        <section class="section">
+          <h3 id="zainteresowania">Zainteresowania</h3>
+          <p>
+            Po pracy realizuje moje hobby. Uwielbiam tańczyć i chodzić po
+            górach. Jestem też "nieco" uzależniona od podróży ;)
+          </p>
+          <div class="section__containerTable">
+            <table class="table" id="podroze">
+              <caption class="table__caption">
+                Kraje, które planuję odwiedzić w najbliższych latach
+              </caption>
+              <tbody>
+                <tr class="table__row">
+                  <th class="table__cell table__cell--header" scope="col">
+                    Rok
+                  </th>
+                  <th class="table__cell table__cell--header" scope="col">
+                    Kontynent
+                  </th>
+                  <th class="table__cell table__cell--header" scope="col">
+                    Kraj
+                  </th>
+                  <th class="table__cell table__cell--header" scope="col">
+                    Stolica
+                  </th>
+                </tr>
+                <tr class="table__row">
+                  <th class="table__cell table__cell--header" scope="row">
+                    2024
+                  </th>
+                  <td class="table__cell" rowspan="2">Europa</td>
+                  <td class="table__cell">Portugalia</td>
+                  <td class="table__cell">Lizbona</td>
+                </tr>
+                <tr class="table__row">
+                  <th class="table__cell table__cell--header" scope="row">
+                    2025
+                  </th>
+                  <td class="table__cell">Grecja</td>
+                  <td class="table__cell">Ateny</td>
+                </tr>
+                <tr class="table__row">
+                  <th class="table__cell table__cell--header" scope="row">
+                    2025
+                  </th>
+                  <td class="table__cell">Ameryka Północna</td>
+                  <td class="table__cell">Kuba</td>
+                  <td class="table__cell">Hawana</td>
+                </tr>
+                <tr class="table__row">
+                  <th class="table__cell table__cell--header" scope="row">
+                    2026
+                  </th>
+                  <td class="table__cell">Azja</td>
+                  <td class="table__cell">Wietnam</td>
+                  <td class="table__cell">Hanoi</td>
+                </tr>
+                <tr class="table__row">
+                  <th class="table__cell table__cell--header" scope="row">
+                    2027
+                  </th>
+                  <td class="table__cell">Ameryka Południowa</td>
+                  <td class="table__cell">Peru</td>
+                  <td class="table__cell">Lima</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <section class="section">
+          <h2 id="frontend">Nauka Frontend'u</h2>
+          <p>
+            Od kilku miesięcy uczę się HTML i CSS, jednak do tej pory szło mi to
+            dość powoli. W trakcie tego kursu na pewno nauka pójdzie mi
+            <em>zdecydowanie</em> szybciej.
+          </p>
+          <p>
+            Posiadam już podstawowe umiejętności w zakresie HTML i CSS oraz
+            zaczęłam uczyć się języka Javascript.
+          </p>
+        </section>
+      </div>
+      <section class="section section--textAlign" id="przyciski">
+        <h3>Oto kilka przykładów moich aktualnych umiejętności:</h3>
+        <div class="section__buttonContainer">
+          <p>
+            <button class="section__button js-deleteNameButton">
+              1. Usuń imię i nazwisko
+            </button>
+          </p>
+          <p>
+            <button class="section__button js-buttonChangeColor">
+              2. Zmień kolor "O mnie" na
+              <span class="colorName">czerwony</span>
+            </button>
+          </p>
+          <p>
+            <button class="section__button js-buttonRemoveText">
+              3. Usuń tekst
+            </button>
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>
+        Kontakt:
+        <a href="mailto:mikucka.kamila@gmail.com"> mikucka.kamila@gmail.com</a>
+      </p>
+    </footer>
+    <!-- test komentarza -->
+  </body>
+</html>

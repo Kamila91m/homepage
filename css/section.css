@@ -1,0 +1,37 @@
+.section {
+  margin: 30px auto;
+}
+
+.section__important {
+  color: #634007;
+  font-weight: 700;
+}
+
+.section__containerTable {
+  overflow-x: auto;
+}
+
+.section--textAlign {
+  text-align: center;
+}
+
+.section__button {
+  font-size: 16px;
+  color: #ffffff;
+  border-style: solid;
+  border-color: #054312;
+  background-color: #054312;
+  padding: 10px;
+  border-radius: 20px;
+  outline-color: #dbeada;
+  outline-width: 5px;
+  outline-style: solid;
+}
+
+.section__button:hover {
+  background-color: green;
+}
+
+.section__button:active {
+  color: #042c04;
+}
