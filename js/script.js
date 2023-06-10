@@ -1,4 +1,4 @@
-console.log("Hello! How are you?");
+console.log("Hello! How you doin?");
 
 let deleteNameButtonElement = document.querySelector(".js-deleteNameButton");
 let headingNameElement = document.querySelector(".js-headingName");
